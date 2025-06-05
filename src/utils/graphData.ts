@@ -169,7 +169,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 2,
-    title: "KDE Plot of Actual vs Predicted Review Scores",
+    title: "Model 1: KDE Plot of Actual vs Predicted Review Scores",
     description: "Compares the density distribution of actual and predicted review scores",
     category: "Validation",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 1.2.png",
@@ -177,7 +177,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 3,
-    title: "Word Count vs Review Score",
+    title: "Model 2: Word Count vs Review Score",
     description: "Displays the distribution of word counts in reviews across different review scores",
     category: "Feature analysis",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.1.png",
@@ -185,7 +185,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 4,
-    title: "PCA of Count Vectors",
+    title: "Model 2: PCA of Count Vectors",
     description: "Visualizes the distribution of count vectors using PCA, colored by review scores (1.0 and 5.0)",
     category: "Feature analysis",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.2.png",
@@ -193,7 +193,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 5,
-    title: "PCA of TF-IDF Vectors",
+    title: "Model 2: PCA of TF-IDF Vectors",
     description: "Visualizes the distribution of TF-IDF vectors using PCA, colored by review scores (1.0 and 5.0)",
     category: "Feature analysis",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.3.png",
@@ -201,7 +201,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 6,
-    title: "Confusion Matrix - Logistic Regression (CountVectorizer)",
+    title: "Model 2: Confusion Matrix - Logistic Regression (CountVectorizer)",
     description: "Shows the performance of a logistic regression model using CountVectorizer, comparing true and predicted labels",
     category: "Validation",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.4.png",
@@ -209,7 +209,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 7,
-    title: "Confusion Matrix - Logistic Regression (TF-IDF)",
+    title: "Model 2: Confusion Matrix - Logistic Regression (TF-IDF)",
     description: "Shows the performance of a logistic regression model using TF-IDF, comparing true and predicted labels",
     category: "Validation",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.5.png",
@@ -217,7 +217,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 8,
-    title: "Top Features from Logistic Regression",
+    title: "Model 2: Top Features from Logistic Regression",
     description: "Displays the coefficient values of the top 20 negative and positive weight words from a logistic regression model",
     category: "Interpretability",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.6.png",
@@ -225,7 +225,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 9,
-    title: "ROC Curve - Logistic Regression (TF-IDF)",
+    title: "Model 2: ROC Curve - Logistic Regression (TF-IDF)",
     description: "Displays the Receiver Operating Characteristic curve for a logistic regression model using TF-IDF, with an area of 0.89",
     category: "Validation",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.7.png",
@@ -233,7 +233,7 @@ export const modelGraphs: GraphData[] = [
   },
   {
     id: 10,
-    title: "ROC Curve - Random Forest (TF-IDF)",
+    title: "Model 2: ROC Curve - Random Forest (TF-IDF)",
     description: "Displays the Receiver Operating Characteristic curve for a random forest model using TF-IDF, with an area of 0.91",
     category: "Validation",
     imageUrl: "https://raw.githubusercontent.com/Usaira-Shahbaz/Graphs/main/Model 2.8.png",
